@@ -23,6 +23,7 @@
   cursor: pointer;
 }
 
+/*Standard: Antwort wird durch display:none nicht gezeigt */
 .card__answer {
   margin: 0 2rem;
   font-style: italic;
@@ -51,4 +52,10 @@
   color: var(--white);
   border-radius: 4px;
   padding: 0 5px;
+}
+
+/*wenn Klick auf Button, wird diese Klasse hinzugefügt -Y Antwort wird sichtbar durch display:block; */ 
+.card__hidden {
+  display: block;
+  font-style: italic;
 }
