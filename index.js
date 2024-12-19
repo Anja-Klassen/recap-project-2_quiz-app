@@ -3,7 +3,7 @@
 // erstes Element mit der Klasse .bookmark wird ausgewählt und in der Variablen bookmarkButton gespeichert
 const bookmarkButton = document.querySelector(".bookmark");
 bookmarkButton.addEventListener("click", () => {
-    //die Klasse bookmark--active auf dem Button hinzufügen,w enn sie nicht vorhanden ist und entfernen, wenn vorhanden
+    //die Klasse bookmark--active auf dem Button hinzufügen, wenn sie nicht vorhanden ist und entfernen, wenn vorhanden
     bookmarkButton.classList.toggle("bookmark--active");
 });
 
