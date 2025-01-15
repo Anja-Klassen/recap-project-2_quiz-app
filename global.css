@@ -36,6 +36,12 @@ p {
   margin: 0;
 }
 
+main{
+  background-color:var(--background);
+  padding-top: 6rem;
+  padding-bottom: 6rem
+}
+
 body {
   line-height: 1.5;
   font-family: var(--ff-primary);
