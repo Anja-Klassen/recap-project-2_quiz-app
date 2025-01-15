@@ -9,14 +9,25 @@
   </head>
 
 <body>
-    <form>
+    <form class="form" data-js="form">
         <label for="question">Question:</label>
-        <textarea name="question" id="question"></textarea>
+        <textarea 
+        name="question" 
+        data-js="question-input" 
+        id="question"
+        ></textarea>
         <label for="answer">Answer:</label>
-        <textarea name="answer" id="answer"></textarea>
+        <textarea 
+        name="answer" 
+        data-js="answer-input"
+        id="answer"
+        ></textarea>
         <label for="tag">Tag:</label>
-        <input type="text" name="tag" id="tag"/>
-        <button type="submit">Send</button>
+        <input 
+        type="text" 
+        name="tag" 
+        id="tag"/>
+        <button type="submit">Submit</button>
     </form>
 </body>
 
